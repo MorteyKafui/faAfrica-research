@@ -2,7 +2,7 @@ import styles from './Navbar.module.css';
 
 import { useState } from 'react';
 
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.svg';
 
 const Navbar = () => {
   const [isOpened, setIsOpened] = useState(false);
