@@ -1,0 +1,35 @@
+.why {
+  margin: 5rem 0;
+  padding: 5rem 0;
+}
+
+.content {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.details ul li {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 48em) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    display: none;
+  }
+}

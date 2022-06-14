@@ -1,0 +1,51 @@
+.hero {
+  background: linear-gradient(to right top, #023047ce, #023047c5),
+    url(/public/assets/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.title {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 2rem;
+  width: 70%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.heroBtn {
+  background-color: #fdc280;
+  color: #023047;
+  transition: all 0.2s ease-in-out;
+}
+
+.heroBtn:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 48em) {
+  .desc {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .text {
+    width: 100%;
+  }
+}
